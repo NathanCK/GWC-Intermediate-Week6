@@ -17,3 +17,7 @@ After you finish the exercise, raise your hand and let one of your TAs know befo
 
 Hint: [Click Here](https://sites.google.com/umn.edu/umngwcilw4/) if you want to revisit materials from last week.
 
+## More Python
+### Python Dictionaries
+
+Last week we learnt how to write our own module, and how we can apply it to simple user interface for Chatbot. 
