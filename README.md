@@ -26,11 +26,69 @@ A dictionary is a collection of data which is unordered, changeable and indexed.
 
 * Take a look at the following code and think what it should return:
 ```
-person =	{
+person = {
     "name": "Cindy",
     "age": 20,
     "pet": "cat"
-  }
-  print(person)
+}
+print(person)
 ```
 Now open your IDLE, create a new file and run the above code. Does the result match with what you think? Ask TAs for explanations and make sure you understand before going further.
+
+#### Easy Access
+Now we have a dictionary called `person`, so how can we get the data within it? One good thing about dictionaries is that you can access the items of a dictionary by referring to its key name:
+```
+animal = person["pet"]
+print(animal)
+```
+There is also a method called get() that will give you the same result:
+```
+animal = person.get("pet")
+print(animal)
+```
+You may wonder if we can check if the key exists. This is actually similar to what we did using list, where the `in` operator is used.
+Let's take a look at the example below:
+```
+bot = {
+    "name": "Bob, the bot",
+    "age": 1,
+    "hobby": "talking"
+}
+print('What do you wanna learn about me?')
+user_option = input('>>')
+if(user_option in bot):
+      print('My ', user_option,' is ', bot.get(user_option),'.')
+else:
+      print('Too much to tell!')
+```
+##### Exercise 1: Modify the above code to create another bot of your choice.
+
+#### Changable Values
+Another advantage of using dictionaries is that the collection is changable. You can change the value of a specific item by referring to its key name. Look at the `person` dictionary again:
+```
+person = {
+    "name": "Cindy",
+    "age": 20,
+    "pet": "cat"
+}
+person["pet"] = "penguin"
+
+print(person)
+```
+Guess what? The collection has be updated! 
+
+#### Adding an new item
+You can always add new items to the dictionaries. All you need to do is using a new index key and assigning a value to it. Here is an example:
+```
+person = {
+    "name": "Cindy",
+    "age": 20,
+    "pet": "penguin"
+}
+person["color"] = "maroon"
+print(person)
+```
+Now the `person` dictionary contain one more item!
+
+#### Removing an item
+Sometimes you may just wanna get rid of some of the items from the dictionary. There are several methods to remove items from a dictionary:
