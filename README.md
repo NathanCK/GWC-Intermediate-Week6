@@ -13,5 +13,7 @@ Then save the module as `times2.py` and open a new file that:
 * Imports the `times2.py` using `import`
 * Call the multiply2 function with any input number
 
+After you finish the exercise, raise your hand and let one of your TAs know before you move on to the next part!
 
+Hint: [Click Here](https://sites.google.com/umn.edu/umngwcilw4/) if you want to revisit materials from last week.
 
