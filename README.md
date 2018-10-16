@@ -94,7 +94,7 @@ Now the `person` dictionary contain one more item!
 * Create your own dictionary that contains three facts about yourself. 
 * Ask the user for a key and check if the key exists.
 * If yes, ask for a value and update your dictionary with the input.
-* If not exists, add the input as an new item of your dicto
+* If not exists, add the input as an new item of your dictionary
 
 Show one of the TAs your code before moving on to the next part!
 ___
@@ -136,3 +136,27 @@ del person
 print(person)
 ```
 Try to run this code, and you should get an error message saying that the dictionary does not exist since it has been removed completely.
+
+4. Using the `clear()` keyword to empty the dictionary:
+```
+person = {
+    "name": "Cindy",
+    "age": 20,
+    "pet": "penguin"
+}
+person.clear()
+print(person)
+```
+Using `clear()` will empty the entire dictionary. The `person` dictionary should contain nothing now. 
+___
+### Exercise 3: Now we put everything together
+Write a Python Module that contains a dictionary called `animal`. The dictionary should contains three items of your choice:
+
+Then save the module as `myanimal.py` and open a new file that:
+* Imports the `myanimal.py` using `import`
+* Ask the user for a key and check if the key exists by accessing the `animal` dictionary.
+* If yes, ask for a value and update your dictionary with the input.
+* If not exists, add the input as an new item of your dictionary
+* Ask the user for a key to remove and check if the key exists
+* If yes, remove the item with the key given.
+* If not exists, stop
