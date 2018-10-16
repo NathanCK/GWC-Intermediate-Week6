@@ -20,4 +20,16 @@ Hint: [Click Here](https://sites.google.com/umn.edu/umngwcilw4/) if you want to 
 ## More Python
 ### Python Dictionaries
 
-Last week we learnt how to write our own module, and how we can apply it to simple user interface for Chatbot. 
+Last week we learnt how to write our own module, and how we can apply it to simple user interface for Chatbot. Today, we start learning a new data structure, dictionaries!
+
+A dictionary is a collection of data which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+
+* Take a look at the following code and think what it should return:
+  person =	{
+    "name": "Cindy",
+    "age": 20,
+    "pet": "cat"
+  }
+  print(person)
+
+Now open your IDLE, create a new file and run the above code. Does the result match with what you think? Ask TAs for explanations and make sure you understand before going further.
