@@ -34,8 +34,8 @@ person = {
 print(person)
 ```
 Now open your IDLE, create a new file and run the above code. Does the result match with what you think? Ask TAs for explanations and make sure you understand before going further.
-
-#### Easy Access
+___
+### Easy Access
 Now we have a dictionary called `person`, so how can we get the data within it? One good thing about dictionaries is that you can access the items of a dictionary by referring to its key name:
 ```
 animal = person["pet"]
@@ -61,9 +61,9 @@ if(user_option in bot):
 else:
       print('Too much to tell!')
 ```
-##### Exercise 1: Modify the above code to create another bot of your choice.
-
-#### Changable Values
+#### Exercise 1: Modify the above code to create another bot of your choice.
+___
+### Changable Values
 Another advantage of using dictionaries is that the collection is changable. You can change the value of a specific item by referring to its key name. Look at the `person` dictionary again:
 ```
 person = {
@@ -77,7 +77,7 @@ print(person)
 ```
 Guess what? The collection has be updated! 
 
-#### Adding an new item
+### Adding an new item
 You can always add new items to the dictionaries. All you need to do is using a new index key and assigning a value to it. Here is an example:
 ```
 person = {
@@ -90,5 +90,5 @@ print(person)
 ```
 Now the `person` dictionary contain one more item!
 
-#### Removing an item
+### Removing an item
 Sometimes you may just wanna get rid of some of the items from the dictionary. There are several methods to remove items from a dictionary:
