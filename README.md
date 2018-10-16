@@ -98,5 +98,41 @@ Now the `person` dictionary contain one more item!
 
 Show one of the TAs your code before moving on to the next part!
 ___
-### Removing an item
+### Removing items or dictionaries
 Sometimes you may just wanna get rid of some of the items from the dictionary. There are several methods to remove items from a dictionary:
+
+1. Using the `pop()` method removes the item with the specified key name:
+```
+person = {
+    "name": "Cindy",
+    "age": 20,
+    "pet": "penguin"
+}
+person.pop("pet")
+print(person)
+```
+Try to run the code. Now the `person` dictionary should have no pet in it.
+
+2. Using the `del` keyword to remove the item with the specified key name:
+```
+person = {
+    "name": "Cindy",
+    "age": 20,
+    "pet": "penguin"
+}
+del person["pet"]
+print(person)
+```
+You should obtain same result as the first approach.
+
+3. Using the `del` keyword to delete the dictionary completely:
+```
+person = {
+    "name": "Cindy",
+    "age": 20,
+    "pet": "penguin"
+}
+del person
+print(person)
+```
+Try to run this code, and you should get an error message saying that the dictionary does not exist since it has been removed completely.
