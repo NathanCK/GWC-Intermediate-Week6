@@ -25,11 +25,12 @@ Last week we learnt how to write our own module, and how we can apply it to simp
 A dictionary is a collection of data which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 
 * Take a look at the following code and think what it should return:
-  person =	{
+```
+person =	{
     "name": "Cindy",
     "age": 20,
     "pet": "cat"
   }
   print(person)
-
+```
 Now open your IDLE, create a new file and run the above code. Does the result match with what you think? Ask TAs for explanations and make sure you understand before going further.
