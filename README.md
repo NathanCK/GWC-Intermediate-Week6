@@ -90,5 +90,13 @@ print(person)
 ```
 Now the `person` dictionary contain one more item!
 
+#### Exercise 2: 
+* Create your own dictionary that contains three facts about yourself. 
+* Ask the user for a key and check if the key exists.
+* If yes, ask for a value and update your dictionary with the input.
+* If not exists, add the input as an new item of your dicto
+
+Show one of the TAs your code before moving on to the next part!
+___
 ### Removing an item
 Sometimes you may just wanna get rid of some of the items from the dictionary. There are several methods to remove items from a dictionary:
